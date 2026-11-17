@@ -17,9 +17,6 @@ Dieser Implementation Guide definiert ein FHIR-Profil auf Basis von CH Core Alle
 
 Dieser Implementation Guide enthält ein FHIR-Profil und ein Beispiel zur strukturierten Dokumentation von Arzneimittelallergien.
 
-*[DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): Das Profil definiert die Anforderungen zur Erfassung von Arzneimittelallergien, damit diese in einer Notfallstation zuverlässig ausgewertet werden können.
-*[Penicillinallergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnnaMuster.html): Dieses Beispiel zeigt eine bestätigte Penicillinallergie bei Anna Muster mit hoher Gefährlichkeit und dokumentierter allergischer Reaktion (Urtikaria).
-
 *[DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): FHIR-Profil zur strukturierten Erfassung von Arzneimittelallergien in einer Hausarztpraxis.
 *[Penicillinallergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnnaMuster.html): Beispiel einer bestätigten Penicillinallergie mit dokumentierter Reaktion.
 
