@@ -5,20 +5,23 @@
 -->
 
 ### Use Case
-
-TODO: Beschreibt in zwei bis drei Sätzen, welche Situation euer IG abbildet.
-Wer erfasst die Daten, wer liest sie, und wofür werden sie gebraucht?
+Eine Hausarztpraxis erfasst Arzneimittelallergien ihrer Patientinnen und Patienten strukturiert in einem FHIR-System. Die Informationen werden von einer Ärztin oder einem Arzt dokumentiert und können von einer Notfallstation ausgelesen werden. Dadurch stehen wichtige Angaben zu Allergien und möglichen Reaktionen bei einer Notfallbehandlung zur Verfügung.
 
 ### Scope
 
-TODO: Was deckt dieses IG ab, und was bewusst nicht?
+Dieser Implementation Guide definiert ein FHIR-Profil auf Basis von CH Core AllergyIntolerance zur Erfassung von Arzneimittelallergien. Er legt Anforderungen an den klinischen Status, die Codierung, die Gefährlichkeit, den Beginn, die erfassende Person und allergische Reaktionen fest. Andere Allergiearten und die vollständige Behandlung von Allergien sind nicht Bestandteil dieses IG.
 
 ### Artefakte
 
-TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
+### Artefakte
 
-* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): TODO
-* [Titel eures Beispiels](AllergyIntolerance-TODO_Name.html): TODO
+Dieser Implementation Guide enthält ein FHIR-Profil und ein Beispiel zur strukturierten Dokumentation von Arzneimittelallergien.
+
+*[DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): Das Profil definiert die Anforderungen zur Erfassung von Arzneimittelallergien, damit diese in einer Notfallstation zuverlässig ausgewertet werden können.
+*[Penicillinallergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnnaMuster.html): Dieses Beispiel zeigt eine bestätigte Penicillinallergie bei Anna Muster mit hoher Gefährlichkeit und dokumentierter allergischer Reaktion (Urtikaria).
+
+*[DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): FHIR-Profil zur strukturierten Erfassung von Arzneimittelallergien in einer Hausarztpraxis.
+*[Penicillinallergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnnaMuster.html): Beispiel einer bestätigten Penicillinallergie mit dokumentierter Reaktion.
 
 <!-- TODO_Name ist der Name hinter "Instance:" in beispiele.fsh,
      z. B. AllergyIntolerance-PenicillinAllergieAnna.html -->
@@ -29,6 +32,6 @@ Dieses IG baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf.
 
 ### Autorin oder Autor
 
-TODO: Euer Name.
+Senn Alysha
 
 <p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>
