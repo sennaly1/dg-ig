@@ -39,26 +39,26 @@ Title: "DG Arzneimittelallergie"
 Description: "Arzneimittelallergie, wie sie in der Hausarztpraxis erfasst und auf der Notfallstation gelesen wird."
 
 // Anforderung 1: nur Allergien gegen Arzneimittel
-// * category TODO_Regel
+// * category = #medication
 
 // Anforderung 2: klinischer Status
-// * clinicalStatus TODO_Regel
+// * clinicalStatus 1..1
 
 // Anforderung 3: Codes aus der Schweizer Allergieliste ($ch-allergy-vs)
-// * code TODO_Regel
+// * code from $ch-allergy-vs (preferred)
 
 // Anforderung 4: Kritikalität (wie gefährlich die Allergie ist)
-// * criticality TODO_Regel
+// * criticality 1..1
 
 // Anforderung 5: Beginn der Allergie
-// * onset[x] TODO_Regel
+// * onset[x] only dateTime or Age
 
 // Anforderung 6: wer die Allergie erfasst hat
-// * recorder TODO_Regel
+// * recorder 1..1
 
 // Anforderung 7: Reaktionen (die Symptome einer Reaktion stehen in reaction.manifestation)
-// * reaction TODO_Regel
-// * reaction.manifestation TODO_Regel   (nur falls ihr dafür eine Regel braucht)
+// * reaction 0..*
+// * reaction.manifestation from $ch-allergy-manifestation-vs (extensible)   (nur falls ihr dafür eine Regel braucht)
 
 // Invariante (steht schon in invarianten.fsh), nur die // entfernen:
 // * obeys dg-allergy-1
