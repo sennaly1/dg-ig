@@ -18,9 +18,9 @@
 // sie eine Reaktion.
 // =====================================================================
 
-// Instance: PenicillinAllergieAnna                        // z. B. PenicillinAllergieAnna
-// InstanceOf: DgMedicationAllergy
-// Usage: #example
+Instance: PenicillinAllergieAnna                        // z. B. PenicillinAllergieAnna
+InstanceOf: DgMedicationAllergy
+Usage: #example
 // Title: "Penicillinallergie bei Anna"
 // Description: "Bestätigte Penicillinallergie bei Anna mit dokumentierter Reaktion."
 // * patient = Reference(Anna)
