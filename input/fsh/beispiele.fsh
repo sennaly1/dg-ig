@@ -18,17 +18,17 @@
 // sie eine Reaktion.
 // =====================================================================
 
-// Instance: PenicillinAllergieAnna                        // z. B. PenicillinAllergieAnna
-// InstanceOf: DgMedicationAllergy
-// Usage: #example
-// Title: "Penicillinallergie bei Anna"
-// Description: "Bestätigte Penicillinallergie bei Anna mit dokumentierter Reaktion."
-// * patient = Reference(Anna)
-// * category = #medication
-// * clinicalStatus = $allergy-clinical#active
-// * verificationStatus = $allergy-verification#confirmed
-// * code = $sct#91936005 "Allergy to penicillin (finding)"
-// * criticality = #high
-// * onsetDateTime = 30 'a' "Jahre"
-// * recorder = Reference(DrSaraKeller)
-// * reaction.manifestation = $sct#126485001 "Urticaria (disorder)"
+Instance: PenicillinAllergieAnna                        // z. B. PenicillinAllergieAnna
+InstanceOf: DgMedicationAllergy
+Usage: #example
+Title: "Penicillinallergie bei Anna"
+Description: "Bestätigte Penicillinallergie bei Anna mit dokumentierter Reaktion."
+* patient = Reference(Anna)
+* category = #medication
+* clinicalStatus = $allergy-clinical#active
+* verificationStatus = $allergy-verification#confirmed
+* code = $sct#91936005 "Allergy to penicillin (finding)"
+* criticality = #high
+* onsetDateTime = 30 'a' "Jahre"
+* recorder = Reference(DrSaraKeller)
+* reaction.manifestation = $sct#126485001 "Urticaria (disorder)"
